@@ -19,21 +19,19 @@ overflow-x: hidden;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
 }
-
 @keyframes identifier {
   0%{
     transform: translateX(0);
   }
   100%{
-    transform: translateX(-300px);
+    transform: translateX(-200%);
   }
  
 }
 
-
-
-
-
 .mover2{
   transform: translateX(-1000px);
+}
+.animate-myanime{
+  animation: linear identifier 50s infinite ;
 }
